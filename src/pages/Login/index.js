@@ -2,8 +2,11 @@ import React from 'react';
 
 import { Container } from '../../styles/GlobalStyles';
 import { Title, Paragrafo } from './styled';
+import { toast } from 'react-toastify';
 
 export default function Login() {
+  toast.success('Oie, sucesso!');
+  toast.error('Oie, sucesso!');
   return (
     <Container>
       {/* props do component Title, isRed={props} */}
