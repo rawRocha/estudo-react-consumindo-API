@@ -3,17 +3,16 @@ import { useDispatch } from 'react-redux';
 
 import { Container } from '../../styles/GlobalStyles';
 import { Title, Paragrafo } from './styled';
-//eslint-disable-next-line
+import * as exampleActions from '../../store/modules/example/actions';
 
+//eslint-disable-next-line
 export default function Login() {
   const dispatch = useDispatch();
 
   function handleClick(e) {
     e.preventDefault();
 
-    dispatch({
-      type: 'BOTAO_CLICADO',
-    });
+    dispatch(exampleActions.clicaBotao());
   }
 
   return (
