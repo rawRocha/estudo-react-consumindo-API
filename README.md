@@ -53,24 +53,6 @@ npm start
 yarn start
 ```
 
-## **Estrutura do Projeto**
-Aqui está uma visão geral da estrutura inicial do projeto:
-
-```csharp
-react-base/
-├── src/
-│   ├── components/       # Componentes reutilizáveis
-│   ├── pages/            # Páginas da aplicação
-│   ├── styles/           # Estilização global e temas
-│   ├── utils/            # Funções e helpers
-│   ├── App.js            # Componente principal
-│   └── index.js          # Ponto de entrada da aplicação
-├── .eslintrc.js          # Configuração do ESLint
-├── .prettierrc           # Configuração do Prettier
-├── package.json          # Configuração do projeto e dependências
-└── README.md             # Documentação do projeto
-```
-
 ## **Contribuição**
 Se você deseja contribuir para melhorar esta base ou sugerir novas funcionalidades, siga os passos abaixo:
 
